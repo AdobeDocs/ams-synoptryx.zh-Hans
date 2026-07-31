@@ -1,23 +1,23 @@
 ---
-title: 使用Synoptryx实现应用程序性能监控(APM)
-description: 使用Synoptryx APM插件可跟踪AEM事务、监视JVM、分析事务，以及在AEM Managed Services上检查事务跟踪和外部服务。
+title: 使用 [!DNL Synoptryx]进行应用程序性能监控(APM)
+description: 使用 [!DNL Synoptryx] APM插件跟踪AEM事务、监视JVM、分析事务以及检查AEM Managed Services上的事务跟踪和外部服务。
 feature: Operations
 role: Admin
-source-git-commit: 883b68e3bc57ba6b55559560a967a6dbc553262a
+source-git-commit: 12876ba185fd6d155f02639fba9601a3616c7e90
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1078'
 ht-degree: 5%
 
 ---
 
 
-# 使用Synoptryx实现应用程序性能监控(APM) {#application-performance-monitoring}
+# 使用[!DNL Synoptryx]的应用程序性能监控(APM) {#application-performance-monitoring}
 
-Synoptryx应用程序性能监控(APM)可实时提供insight的历史信息以了解Adobe Experience Manager (AEM)性能和最终用户体验。 通过端到端事务跟踪、图表和报告，可以深入了解Java代码级别的应用程序行为。
+[!DNL Synoptryx]应用程序性能监控(APM)提供实时和历史insight到Adobe [!DNL Experience Manager] (AEM)性能和最终用户体验的转换。 通过端到端事务跟踪、图表和报告，可以深入了解Java代码级别的应用程序行为。
 
-## Managed Services Synoptryx APM插件 {#apm-plugin}
+## Managed Services [!DNL Synoptryx] APM插件 {#apm-plugin}
 
-AEM作为Java应用程序在Jetty上运行，带有Apache Felix OSGi模块，基于Apache Sling和Jackrabbit Oak构建。 Adobe Managed Services、AEM工程和Synoptryx工程部门联合开发了Managed Services环境的自定义工具。
+AEM作为Java应用程序在Jetty上运行，带有Apache Felix OSGi模块，基于Apache Sling和Jackrabbit Oak构建。 Adobe Managed Services、AEM工程和[!DNL Synoptryx]工程部门联合开发了Managed Services环境的自定义工具。
 
 该工具收集：
 
@@ -29,7 +29,7 @@ AEM作为Java应用程序在Jetty上运行，带有Apache Felix OSGi模块，基
 
 ![Synoptryx APM跟踪视图，显示页面请求的嵌套AEM组件跨度和执行时间线](assets/image19.png)
 
-## 使用Synoptryx APM {#using-apm}
+## 使用[!DNL Synoptryx] APM {#using-apm}
 
 使用APM在应用程序问题影响最终用户之前查找它们。 创作和发布共享一个代码库，但作为&#x200B;**单独的APM应用程序**&#x200B;进行监视，因此您可以单独分析每个层。
 
@@ -38,7 +38,7 @@ AEM作为Java应用程序在Jetty上运行，带有Apache Felix OSGi模块，基
 - 一个APM应用程序供作者使用
 - 一个APM应用程序用于发布
 
-在Synoptryx APM中选择应用程序名称，以打开其概述和监视仪表板。
+在[!DNL Synoptryx] APM中选择应用程序名称以打开其概述和监视仪表板。
 
 ![Synoptryx APM应用程序列表显示作者和发布应用程序](assets/image1a.png)
 
@@ -70,7 +70,7 @@ AEM作为Java应用程序在Jetty上运行，带有Apache Felix OSGi模块，基
 
 ### 描述
 
-**概述**&#x200B;部分显示汇总受监视应用程序的当前状态的高级关键绩效指标(KPI)。
+**[!UICONTROL 概述]**&#x200B;部分显示汇总受监视应用程序的当前状态的高级关键绩效指标(KPI)。
 
 这些KPI提供了应用程序活动、吞吐量、请求成功和整体用户体验的概览摘要。
 
